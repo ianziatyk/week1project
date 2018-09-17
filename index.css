@@ -1,0 +1,307 @@
+*{
+	padding:0;
+	margin:0;}
+
+.getrid{position: relative;
+}
+.wrapper{
+	margin-bottom: 0px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background-color: white;
+	position: absolute;
+	top: 0px;
+	right:220px;
+}
+
+.image{
+	height: 25vmax;
+	width:  25vmax;
+}
+
+.img-gallery {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+} 
+.infoflex{
+	display: flex;
+	flex-direction: column;
+}
+
+.infobox{font-family: verdana;
+	color:black;
+	position: relative;
+	top: 100px;
+	left: 225px;
+	font-size: 12px;
+}
+
+.infobox nav ul li{color:grey;}
+
+
+#myname{
+	font-size: 30px;
+	font-family:arial;
+	/*font-weight:*/
+	color:black;
+	position: absolute;
+	left:215px;
+	top: 50px;
+}
+
+.infoflex p{ font-size: 12px;
+	font-family: verdana;
+	color:black;
+	position:absolute;
+	top:110px;
+	left: 420px;
+}
+
+.infoflex nav{
+	text-decoration: none;
+	font-family: verdana;
+	position: absolute;
+	top: 100px;
+
+}
+/*.wrapper2{ width: 25%
+	
+}
+.wrapper2 li {;
+margin: 0 auto;
+border:2px solid blue;}
+
+.wrapper2 p { 
+	border: 2px solid green;
+}
+.wrapper2 a{font-family: impact }
+
+h1
+{text-align: center;
+}	
+
+ .image
+
+*/
+.footer-parent{width: 100%;
+	justify-content: center;
+	border: 2px dotted black;
+	width: auto;
+	margin-bottom: 0px;}
+
+.footer-child {
+	border: 2px solid black;
+
+}
+
+}
+.border-top { 
+				width: 100%;
+				border: 2px yellow;
+				border-bottom: 2px solid black;
+			}
+.border-bottom{
+	border-top: 2px solid black;
+}
+#streams{
+	background-image: url(images/streams.jpeg);
+	background-size: 100% 100%;
+	/*height: 200px;*/
+}
+
+#viii{
+	background-image: url(images/viii.jpeg);
+	background-size: 100% 100%;
+}
+#love{
+	background-image: url(images/love.jpeg);
+	background-size: 100% 100%;
+	}
+#life{
+	background-image: url(images/life.jpeg);
+	background-size: 100% 100%;
+}	
+#wide{
+	background-image: url(images/wide.jpeg);
+	background-size: 100% 100%;
+}
+#threefive{
+	background-image: url(images/threefive.jpeg);
+	background-size: 100% 100%;
+}
+#ys{
+	background-image: url(images/ys.jpeg);
+	background-size: 100% 100%;
+}
+#scene{
+	background-image: url(images/scene.jpeg);
+	background-size: 100% 100%;
+}
+.title {
+	color: black;
+   	font-family: arial;
+   	font-weight:lighter;
+}
+
+
+.title h1{text-align:center;}
+/* copy this to about CSS*/
+
+
+.rbp{
+    display: block;
+    margin-top:75px;
+    margin-left: auto;
+    margin-right:auto;
+    width: 40%;}
+
+
+.about-text{ 
+	margin:0 auto;
+	justify-content: center; }
+
+
+
+.about-text p {
+	display: block;
+	padding-left: 50px;
+    margin-left: auto;
+    margin-right:auto;
+    width: 50%;
+	column-count: 2;
+	font-family: verdana;
+	text-align: justify;
+}
+.wrapper-about{
+	width: 100%;
+	justify-content: center;
+		 }
+
+
+
+/* this is for contact.css*/
+
+
+.contact-wrapper{ margin: 0 auto;
+	text-align: center;
+	margin-top: 100px;}
+
+	.contact-wrapper img { width: 500px;
+	justify-content: center;
+	margin-bottom: 40px; }
+
+.contact-info p {font-family: verdana;}
+
+
+
+
+/*this is for mobile respnsiveness on the hompage..i am only changin the grid to be one column.*/
+@media all and (min-width: 1px) and (max-width: 706px){
+body{ background-color:white; } 
+
+	.wrapper{
+	grid-template-columns: 1fr 1fr;
+	animation; transition-duration:.5s;
+	margin-top: 150px;
+	position: fixed;
+    bottom: 0;s
+    width: 100%;
+    right:auto;
+    left: auto;
+    overflow: scroll;
+
+
+} 
+.image{
+	width: 46vh;
+	height: 46ch;
+}
+.infobox{font-family: verdana;
+	color:black;
+	position: relative;
+	top: 10px;
+	left: 215px;
+	font-size: 12px;
+}
+.contact-wrapper img { width: 200px;
+	justify-content: center;
+	margin-bottom: 40px; }
+}
+.rbp{
+    display: block;
+    margin-top:150px;
+    margin-left: auto;
+    margin-right:auto;
+    width: 40%;}
+
+@media all and (min-width: 707px) and (max-width: 1376px){
+
+.wrapper{ justify-content: center;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	background-color: white;
+	animation; transition-duration:.5s;
+	top: 150px;
+	right: 0px;
+
+}
+.infobox{font-family: verdana;
+	color:black;
+	position: relative;
+	top: 10px;
+	left: 215px;
+	font-size: 12px;
+}
+.contact-wrapper img { width: 400px;
+	justify-content: center;
+	margin-bottom: 40px; }
+
+	.rbp{
+    display: block;
+    margin-top:75px;
+    margin-right:auto;
+    width: 40%;}
+
+@media all and (min-width: 1377px){
+	body
+		{background-color: white;
+	}
+	
+	.wrapper{ justify-content: center;
+	margin: 10px auto;
+	display: grid;
+	grid-template-columns: 1fr;
+	background-color: white;
+	animation; transition-duration:.5s;
+	top: 150px;
+	right:auto;
+}
+
+/*@media all and (max-width: 450px){
+	body{background-color: lightgrey;
+	animation; transition-duration:2.2s;
+}
+
+@media all and (max-width: 451px) and(min-width: 750px){ body{background-color: orange;
+	animation; transition-duration:2.2s;
+}
+-->*/
+
+
+
+	/*dont forget the bracket!!!*/
+
+/*.wrapper{
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr;
+	background-color: white;
+	animation; transition-duration:5s;
+} 
+.infoflex{
+	color:white;
+	text-align: center;
+	animation; transition-duration:5s;
+}/*
